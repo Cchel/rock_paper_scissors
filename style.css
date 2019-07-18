@@ -19,7 +19,7 @@ h2 {
     color: var(--font-color);
 }
 
-.rock, .paper, .scissor {
+.rock, .paper, .scissors {
     padding: 10px;
 }
 
@@ -40,13 +40,13 @@ img {
     bottom: 60px;
 }
 
-.scissor {
+.scissors {
     position: relative;
     left: 1000px;
     bottom: 220px;
 }
 
-#flash {
+#results {
     animation-name: flash;
      animation-duration: 0.2s;
      animation-timing-function: linear;

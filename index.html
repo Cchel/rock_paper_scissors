@@ -4,36 +4,35 @@
         <title>Rock, Paper, Scissors</title>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
         <link rel = "stylesheet" href="style.css">
+        <meta charset="utf-8"/>
 </head>
 
 <body>
     <header>
-        <h1>Rock. Paper. Scissors.</h1>
+        <h1>Welcome to the Thunderdome...</h1>
     </header>
 
   <h2>Choose your fighter!</h2>
 
 
   <div class="rock">
-    <button type="button" onClick="choose('rock')">
+    <button type="button" id ="rock" value ="rock">
       <img src="images/rock.png">
     </button>
   </div>
   <div class="paper">
-    <button type="button" onClick="choose('paper')">
+    <button type="button" id ="paper" value ="paper">
       <img src="images/paper.png">
     </button>
   </div>
-  <div class="scissor">
-    <button type="button" onClick="choose('scissor')">
+  <div class="scissors">
+    <button type="button" value ="scissors" id ="scissors">
       <img src="images/scissors.png">
     </button>
   </div>
 
   <div class="jumbotron">
-    <h2> You chose placeholder. The computer chose placeholder.</h2>
-    <br>
-    <h1 id="flash"> VICTORY/LOSS MESSAGE HERE!!! </h1>
+    <h1 id="results">Open your console to see the game play out!</h1>
   </div>
   
   
