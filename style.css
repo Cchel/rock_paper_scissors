@@ -1,0 +1,47 @@
+:root {
+    --font-color: firebrick;
+    --font-family:'Press Start 2P', cursive;
+}
+
+body { 
+    background-color: black;
+}
+
+h1 {
+    text-align:center;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+.rock, .paper, .scissor {
+    padding: 10px;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+}
+
+.rock {
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+
+.paper {
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
+
+.scissor {
+    position: relative;
+    left: 1000px;
+    bottom: 220px;
+}
